@@ -1,0 +1,152 @@
+body {
+  padding-top: 115px;
+  background-color: #D9D4CE;
+}
+
+@font-face {
+  font-family: Script;
+  src: url("../font/ScriptMTBold.ttf");
+}
+/* Start of Nav */
+
+.navbar-brand {
+  font-family: "Script";
+  font-size: 2em;
+  text-align: center;
+}
+
+.navbar-toggler {
+  justify-content: center;
+}
+.navbar-collapse {
+  justify-content: center;
+}
+.navbar-nav {
+  font-family: "Script";
+  font-size: 1.3em;
+}
+
+nav li {
+  margin: auto;
+}
+/* Start of Content 1st Page */
+
+.leTitre {
+  font-family: "Script";
+  font-size: 1.9em;
+  margin: auto;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 0px 0px 5px gray;
+}
+
+.cascadeFruit {
+  max-width: 95%;
+}
+
+.texteArticle {
+  text-align: center;
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.articleDownMobile
+{
+  display: none;
+}
+
+
+@media (max-width: 768px) {
+  .leTitre {
+    font-size: 1.9em;
+  }
+
+  .Fruitos {
+    display: none;
+  }
+
+  .articleDownMobile{
+    display: block;
+  }
+
+  .articleDown{
+    display: none;
+  }
+
+  .texteArticle {
+    font-size: 1.3em;
+  }
+
+}
+/* Start of Content 3rd Page */
+.iconMail, .iconFacebook
+{
+  height: 25px;
+}
+.imgMail, .imgFaceB
+{
+  height: 100%;
+}
+
+.titre, .titreMap h1
+{
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bolder;
+  font-family: 'Script', sans-serif;
+  font-size: 2.3em;
+  color: #383B43;
+}
+
+.Infos {
+  margin-top: 2em;
+}
+
+.Infos p, .leMail a, .lienFB a, .Horaires p
+{
+  font-family: "Roboto";
+  font-size: 1.2em;
+  color: #383B43;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 1em;
+}
+
+.boxMaps
+{
+  border-left: 4px solid #383B43;
+}
+.Map
+{
+  margin : 1em;
+}
+
+.underline
+{
+  text-decoration: underline;
+}
+  @media (max-width: 425px)
+  {
+    .titre, .titreMap h1
+    {
+      font-size: 2em;
+    }
+
+    .Map
+    {
+      margin: auto;
+    }
+
+    .boxMaps
+    {
+      border-left: 0;
+      padding : 1em 10px;
+    }
+
+    .titreMap
+    {
+      padding-top: 3em;
+      border-top: 4px solid #383B43;
+    }
+  }
